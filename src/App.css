@@ -1,34 +1,54 @@
-.conatiner{
-    margin-left: 30%;
-    margin-top: 6%;
-    /* row-gap: 150px; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
 }
-
-.line{
-    margin-left: 10%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color:red;
-}
-
-.line1{
-    margin-left: 40%;
-    color:red;
-}
-
 .main_div{
     width: 100%;
     height: 100vh;
-    background:#6983aa;
+    background: linear-gradient(rgb(206, 207, 151) , rgb(138, 209, 191) , rgb(114, 114, 180));
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
     justify-content: center;
 }
 
+.content{
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.content h3{
+    color: rgb(180, 157, 239);
+    font-size: 22px;
+}
+
+.content h2{
+    color: rgb(71, 75, 125);
+    font-size: 42px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+img{
+    margin-left: 17%;
+}
+.content h6{
+    color: rgb(51, 52, 51);
+    font-size: 13px;
+    margin-left: 4%;
+}
+
+.content h5{
+    color: rgb(52, 51, 51);
+    font-size: 13px;
+    margin-left: 69%;
+}
+
 .center_div{
-    width:35%;
+    margin-top: 5%;
+    width:30%;
     height:80vh;
     background-color: #f4f4f4;
     box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
@@ -38,8 +58,9 @@
 h1{
     color: white;
     background: transparent;
-    background-color: #8566aa;
+    background-color: #e93d34;
     padding: 6px 0 2px 0;
+    text-align: center;
     margin-bottom: 10px;
     box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
 }
@@ -58,13 +79,13 @@ input{
 }
 
 button{
-    min-height: 40px;
+    min-height: 26px;
     width: 46px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: #8566aa;
+    background-color: #7008ee;
     color: #fff;
-    font-size:40px;
+    font-size:35px;
     border:none;
     outline:none;
     margin-left: 10px;
@@ -72,7 +93,7 @@ button{
 }
 
 button:hover{
-    background-color: #20bf6b;
+    background-color: #b60be1;
 }
 
 ol{
@@ -89,7 +110,7 @@ ol li{
     min-height: 40px;
     display: flex;
     align-items: center;
-    color: rgb(207, 154, 92);
+    color: rgb(5, 13, 244);
     text-transform: capitalize;
     margin-left: 20%;
 }
@@ -107,7 +128,7 @@ ol li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8566aa;
+    background-color: #de5b5b;
     border-radius: 50%;
     margin: 0 15px 0 35px;
     color: aliceblue;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
-// import Navbar from './Navbar'
+import img from '../smile.png'
 
 const Home = () => {
   //   --------------for the to do
@@ -31,11 +31,18 @@ const Home = () => {
     <>
       {/* <Navbar/> */}
       <div className="main_div">
+        <div className="content">
+          <h3>Welcome to..</h3>
+          <h2>Kunal To-Do Page</h2>
+          <img src={img} alt="" />
+          <h6>Don't wait for the perfect moment; take the moment and make it perfect. </h6>
+          <h5>- Zoey Sayward</h5>
+        </div>
+
         <div className="center_div">
+          <h1>To Do list</h1>
           <br />
-          <h1>TO DO list</h1>
-          <br />
-          <input type="text" placeholder='add a item' onChange={setItem} value={itemList} />
+          <input type="text" placeholder='Enter a Item' onChange={setItem} value={itemList} />
           <button onClick={updateItem}>+</button>
           <ol>
             {userItem.map((itemval, index) => {
